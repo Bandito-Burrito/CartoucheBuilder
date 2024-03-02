@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%; /* Ensure the header takes the full width */
+    text-align: center; /* Center the text inside the header */
+    padding: 20px 0; /* Add padding on the top and bottom */
+}
+
+.container {
+    display: flex;
+    width: 80%; /* Adjust based on your preference */
+    align-items: center; /* Center items vertically in the container */
+    justify-content: space-between; /* Space between the grid and pendant sections */
+    flex: 1;
+}
+
+.grid-section, .pendant-section {
+    flex: 1; /* Take up equal space */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
